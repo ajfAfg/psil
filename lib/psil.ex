@@ -4,15 +4,24 @@ defmodule Psil do
   """
 
   @doc """
-  Hello world.
+  car
 
   ## Examples
 
-      iex> Psil.hello()
-      :world
+      iex> Psil.car([1,2,3])
+      "🚗"
 
   """
-  def hello do
-    :world
-  end
+  def car(_), do: "🚗"
+
+  @doc """
+  cdr
+
+  ## Examples
+
+      iex> Psil.cdr([1,2,3])
+      [2,3]
+
+  """
+  def cdr([_ | rest]), do: rest
 end
