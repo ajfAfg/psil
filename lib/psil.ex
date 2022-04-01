@@ -8,7 +8,8 @@ defmodule Psil do
 
   ## Examples
 
-      iex> Psil.car([1,2,3])
+      iex> import Psil
+      iex> car [1, 2, 3]
       "🚗"
 
   """
@@ -19,7 +20,8 @@ defmodule Psil do
 
   ## Examples
 
-      iex> Psil.cdr([1,2,3])
+      iex> import Psil
+      iex> cdr [1, 2, 3]
       [2,3]
 
   """
