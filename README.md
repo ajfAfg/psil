@@ -1,6 +1,24 @@
-# Psil
+# PSIL
 
-**TODO: Add description**
+A joke library like LISP
+
+## Examples
+
+`car/1` returns the car.
+
+```elixir
+iex> import Psil
+iex> car [1, 2, 3]
+"🚗"
+```
+
+`cdr/1` returns the rest of the list 😎 .
+
+```elixir
+iex> import Psil
+iex> cdr [1, 2, 3]
+[2,3]
+```
 
 ## Installation
 
@@ -18,4 +36,3 @@ end
 Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at <https://hexdocs.pm/psil>.
-
