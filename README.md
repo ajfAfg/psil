@@ -29,3 +29,8 @@ def deps do
   ]
 end
 ```
+
+## License
+
+MIT
+
